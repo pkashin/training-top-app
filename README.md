@@ -12,3 +12,12 @@ https://www.udemy.com/course/react-nextjs/
         npx create-next-app@latest
       ```
    (проект создаётся как новая директория)
+2. Модифицируем свойства в файле `tsconfig.json`:
+      ```json
+        {
+          "compilerOptions": {
+            "allowJs": false,
+            "strictPropertyInitialization": false
+          }
+        }
+      ```
